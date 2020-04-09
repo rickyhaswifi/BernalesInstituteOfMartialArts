@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Container } from 'semantic-ui-react';
-import {ProgramImage} from '../../styledComponents/ProgramIndexStyles';
 import {Grid, Image, Button, Header} from 'semantic-ui-react';
 import {PageContainer, PageWrap, Horizontal} from '../../styledComponents/HomeStyles';
 import Footer from '../../staticpages/footer/Footer';

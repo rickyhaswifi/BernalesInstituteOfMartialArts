@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero2Cover, Hero2CoverH2} from '../../styledComponents/Home2HeroStyles'
+import {Hero2Cover} from '../../styledComponents/Home2HeroStyles'
 
 const Home2Hero = () => (
 <>

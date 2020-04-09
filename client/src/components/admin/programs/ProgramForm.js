@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import { Form, } from "semantic-ui-react";
 import { ProgramConsumer } from '../../../providers/ProgramProvider';
-import {DashItem, DashText, DashPage, DashContent} from '../../styledComponents/DashboardStyles';
+import { DashPage, DashContent} from '../../styledComponents/DashboardStyles';
 import Navbar from '../../Navbar';
-import ReactQuill, { Quill, Mixin, Toolbar } from 'react-quill';
+import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
 class ProgramForm extends Component {

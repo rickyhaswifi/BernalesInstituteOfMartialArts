@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import { Header, Segment, Button, Icon, Checkbox, Table, Modal } from 'semantic-ui-react';
+import {  Button, Table } from 'semantic-ui-react';
 
 class ProgramShow extends Component {
   render(){

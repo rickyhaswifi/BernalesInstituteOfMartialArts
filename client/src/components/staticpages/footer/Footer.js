@@ -40,7 +40,7 @@ const Footer = () => (
         </FooterText>
         
         <FooterText>
-        &copy; 1996-2019 • Bernales Institute of Martial Arts
+        &copy; 1996-2020 • Bernales Institute of Martial Arts
         </FooterText>
         </FooterContent>
       </FooterMain>

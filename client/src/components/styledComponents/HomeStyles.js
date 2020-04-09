@@ -31,11 +31,12 @@ margin: 0em !important;
 padding: 0em !important;
 position: relative;
 height:auto;
+min-height:75vh;
 `;
 
 export const PageWrap = styled.section`
 padding: 2em !important;
-}
+margin-bottom:3em;
 `;
 
 export const Horizontal = styled.hr`

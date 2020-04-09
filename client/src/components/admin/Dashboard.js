@@ -1,6 +1,5 @@
 import React from 'react';
-import { Menu, Grid } from 'semantic-ui-react';
-import {Link} from 'react-router-dom';
+import {Grid } from 'semantic-ui-react';
 import Navbar from '../Navbar';
 import {DashItem, DashText, DashPage, DashContent} from '../styledComponents/DashboardStyles';
 

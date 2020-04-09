@@ -3,13 +3,13 @@ import home1 from "../assets/images/home-1.jpeg";
 import home2 from "../assets/images/home-2.jpeg";
 import home3 from "../assets/images/home-3.jpeg";
 import home4 from "../assets/images/home-4.jpeg";
-import {Grid, Image} from 'semantic-ui-react';
+import {Grid} from 'semantic-ui-react';
 import { HeroLowerImage, HeroImageItem} from '../../styledComponents/HomeImageGridStyles';
 
 const HomeImageGrid = () => (
     <>
     <HeroLowerImage>
-    <Grid columns={4} stretched doubling>
+    <Grid columns={4} doubling>
 			<Grid.Row>
 				<Grid.Column >
 				<HeroImageItem src={home1}/>

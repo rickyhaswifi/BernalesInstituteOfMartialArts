@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Menu, Image, Button, Dimmer, Header, Icon } from 'semantic-ui-react';
-import { Link, withRouter, } from 'react-router-dom';
-import LogoDark from '../assets/images/bima-black-white.png';
+import { Link, } from 'react-router-dom';
 import LogoLight  from '../assets/images/bima-white-black.png'
 import {MobNavSec, DesNavSec} from '../../styledComponents/PageNavbar';
 

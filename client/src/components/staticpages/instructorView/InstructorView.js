@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import PageNavbar from '../pagesnavbar/PageNavbar';
 import Footer from '../footer/Footer';
-import {Link} from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import {PageWrap, PageContainer} from '../../styledComponents/HomeStyles';
-import { Grid, Image, Card, Icon, Menu, Segment } from 'semantic-ui-react';
-// import style from '../instructorView/InstructorCSS.css';
-import instructorForm from '../../admin/instructor/InstructorForm';
+import {Icon} from 'semantic-ui-react';
 import { InstructorConsumer } from '../../../providers/InstructorProvider';
  
 class InstructorView extends Component {

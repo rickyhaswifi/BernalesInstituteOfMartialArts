@@ -1,11 +1,8 @@
 import React from "react";
-import pro1 from "../assets/images/pro-1.jpeg";
-import pro2 from "../assets/images/pro-2.jpeg";
-import {Grid, Image, Button} from 'semantic-ui-react';
+import {Grid, Button} from 'semantic-ui-react';
 import { ProgramConsumer } from '../../../providers/ProgramProvider';
 import { Link } from 'react-router-dom';
-import { HeroProgramSection, HeroProgramImage,
-     ProgramWrap, ProgramWrapH3, HeroProgramImageSec} from '../../styledComponents/HomeProgramStyles';
+import { HeroProgramSection, ProgramWrap, ProgramWrapH3, HeroProgramImageSec} from '../../styledComponents/HomeProgramStyles';
 
 const HomeImageGrid = () => (
     <>

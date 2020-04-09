@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ProgramShow from "./ProgramShow";
 import { ProgramConsumer } from '../../../providers/ProgramProvider';
 import {Link} from 'react-router-dom';
 import Navbar from '../../Navbar';
 import { Table, Button, Icon } from 'semantic-ui-react';
-import {DashItem, DashText, DashPage, DashContent} from '../../styledComponents/DashboardStyles';
+import { DashPage, DashContent} from '../../styledComponents/DashboardStyles';
 
 const ProgramIndex = ({programs, updateProgram, deleteProgram, addProgram, history }) => (
 <>

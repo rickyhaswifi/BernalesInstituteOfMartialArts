@@ -1,11 +1,9 @@
 import React, {useEffect, useContext, useState} from 'react';
 import { InstructorContext } from '../../../providers/InstructorProvider';
-import { Link } from 'react-router-dom';
-import {PageContainer, PageWrap, Horizontal} from '../../styledComponents/HomeStyles';
+import {PageContainer, PageWrap} from '../../styledComponents/HomeStyles';
 import Footer from '../../staticpages/footer/Footer';
 import PageNavbar from '../../staticpages/pagesnavbar/PageNavbar';
-import { Tab, Menu, Button, Icon, Grid, Image } from 'semantic-ui-react';
-import {Hero2Cover} from '../../styledComponents/Home2HeroStyles';
+import { Grid } from 'semantic-ui-react';
 import {InstructorImage, InstructorImageSecDesk} from '../../styledComponents/InstructorIndexStyles';
 import ConnectedInstructorPage from './InstructorPage';
 import ConnectedInstructorHero from './InstructorHero';

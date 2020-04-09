@@ -1,18 +1,17 @@
 import React from 'react';
 import { ProgramConsumer } from '../../../providers/ProgramProvider';
 import { Link } from 'react-router-dom';
-import ProgramLandingShows from "./ProgramLandingShows";
-import {ProgramImage, ProgramHeader, ProgramImageSec} from '../../styledComponents/ProgramIndexStyles';
+import {ProgramHeader, ProgramImageSec} from '../../styledComponents/ProgramIndexStyles';
 import {PageContainer, PageWrap, Horizontal} from '../../styledComponents/HomeStyles';
 import Footer from '../../staticpages/footer/Footer';
 import PageNavbar from '../../staticpages/pagesnavbar/PageNavbar';
-import {Grid, Image, Button}  from 'semantic-ui-react';
+import {Grid, Image}  from 'semantic-ui-react';
 import {Hero2Cover} from '../../styledComponents/Home2HeroStyles';
 
 
 const ProgramLandingShow = ({programs, history}) => (
     <>
-      <PageNavbar/>
+    <PageNavbar/>
     <PageContainer>
       <Hero2Cover />
     

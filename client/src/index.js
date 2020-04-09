@@ -34,4 +34,4 @@ ReactDOM.render(
       </EventProvider>
     </AboutProvider>
   </AuthProvider>
-  , document.getElementById('root'));
+  , document.getElementById('Bima'));

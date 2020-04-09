@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Poster from '../staticpages/assets/images/poster.jpeg'
 
 export const HeroLowerImage = styled.section`
 /* mobile */
@@ -26,8 +25,6 @@ export const HeroLowerImage = styled.section`
 }
 `;
 
-
-
 export const HeroImageItem = styled.img`
   @media (min-width: 769px) {
     opacity: 0.5;
@@ -39,8 +36,9 @@ export const HeroImageItem = styled.img`
     background-size: cover;
 }
   @media (max-width: 769px) {
+    
      opacity: 0.5;
-     height:100;
+     height:auto;
      position:relative;
     background-attachment: fixed;
     background-position: center;
